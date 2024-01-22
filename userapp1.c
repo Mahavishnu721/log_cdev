@@ -28,7 +28,7 @@ int main()
 	ioctl(dev,DATA_RD,buf);
 	printf("data from kernel is %s\n",buf);
 	*/
-	printf("data send by RDWR \n");
+	//printf("data send by RDWR \n");
 	ioctl(dev,STRUCT_RDWR,&s);
 	printf("rx data from kernal :\n");
 	printf("%s\n",s.data);

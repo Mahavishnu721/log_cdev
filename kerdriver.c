@@ -74,7 +74,7 @@ static long (my_ioctl) (struct file *file, unsigned int cmd, unsigned long arg)
 			//log_send("data send to user app : %s\n",new.data);
 			mutex_unlock(&mutex);
 			log_send("mutex give\n");
-			pr_info("mutex take\n");
+			pr_info("mutex give\n");
 			break;
 		default:
 			pr_info("default run\n");
@@ -110,7 +110,7 @@ static int init_fun(void)
         }
         
 	
-	pr_info("init fun called \n",);
+	pr_info("init fun called \n");
 	log_send("init fun called \n");
 	
 	
