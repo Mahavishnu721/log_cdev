@@ -1,0 +1,14 @@
+hi user log send
+exit function calling
+ver open called
+mutex take
+received data is: delay 10000, string hui saro 
+data send to user app : success
+mutex give
+driver close called
+mutex take
+received data is: delay 5000, string hi anbu 
+data send to user app : success
+mutex give
+driver close called
+exit function calling

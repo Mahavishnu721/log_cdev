@@ -1,0 +1,1 @@
+savedcmd_/home/mahavishnu/Bitsilica/device_driver/task_ioctl/log_cdev/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/mahavishnu/Bitsilica/device_driver/task_ioctl/log_cdev/Module.symvers -T /home/mahavishnu/Bitsilica/device_driver/task_ioctl/log_cdev/modules.order -i Module.symvers -e 
